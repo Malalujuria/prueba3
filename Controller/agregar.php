@@ -18,7 +18,7 @@
       $clienteObj = new cliente();
       $reg = $clienteObj->registro($fecha,$precio,$descripcion,$cliente);
   }
-
+  //para ver diff
   /*if(!$reg)
     header("location:../View/index.php");
     //echo "Exito en PHP";
